@@ -1,0 +1,2 @@
+var tableBody=document.querySelector("tbody")
+tableBody.insertAdjacentHTML("beforebegin","<%=escape_javascript render(partial: 'post_detail', locals: {post: @post})%>");
